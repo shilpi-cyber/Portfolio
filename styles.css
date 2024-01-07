@@ -1,0 +1,428 @@
+body {
+  /* width: 100%; */
+  min-width: 1050px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(rgb(189, 25, 25), black, rgb(189, 25, 25));
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px;
+  font-size: larger;
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 13px;
+  padding: 6px;
+}
+
+/* main { 
+  padding: 20px;
+} */
+
+/* section {
+    /* margin-bottom: 30px; 
+  } 
+  */
+.block-container {
+  /* background-image: linear-gradient(to bottom,rgb(240, 237, 237),rgb(196, 181, 181),rgb(152, 181, 108)); */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid black;  */
+  padding: 20px;
+}
+
+.block-container img {
+  max-width: 600px;
+  margin-right: 6px;
+  border: 2px solid black;
+  border-radius: 14px;
+}
+
+.block-container div {
+  max-width: 60px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 150px;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+
+.anime {
+  font-weight: 800;
+  text-align: center;
+  font-size: 50px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #632fb8, yellow,orange, green, #632fb8, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-color: #950505;
+  padding: 152px;
+  background-size: 80%;
+  animation: shine 2s linear infinite;
+  position: relative;
+  /* border: 13px solid rgb(128, 0, 0); */
+  border-radius: 30%;
+  
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+.container {
+
+  color: #c00404;
+  font-size: 2.26rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  height: 30vh;
+  display: flex;
+  /* border: 3px solid brown;
+  background-color: #47cd1e; */
+  /* border-collapse: collapse; */
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation div div {
+  padding: 0.25rem 0.75rem;
+  height: 2.81rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 6s infinite;
+}
+
+.first div {
+  
+  color: #ffffff;
+  background-color: #20a7d8;
+}
+
+.second div {
+  color: #ccc;
+  background-color: #CD921E;
+}
+
+.third div {
+  color: #ccc;
+  background-color: #c10528;
+}
+
+.fourth div {
+  color: #ccc;
+  background-color: #2bc105;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+
+  10% {
+    margin-top: 0;
+  }
+
+  20% {
+    margin-top: -5.62rem;
+  }
+
+  30% {
+    margin-top: -5.62rem;
+  }
+
+  40% {
+    margin-top: -11.24rem;
+  }
+
+  /* 50% {margin-top: -7.24rem;} */
+  60% {
+    margin-top: -11.24rem;
+  }
+
+  70% {
+    margin-top: -5.62rem;
+  }
+
+  80% {
+    margin-top: -5.62rem;
+  }
+
+  90% {
+    margin-top: 0;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+
+
+#social-profiles {
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+#social-profiles h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#social-profiles ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+#social-profiles li {
+  margin-bottom: 10px;
+}
+
+#social-profiles a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  padding: 8px 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#social-profiles a i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+#social-profiles a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.abu{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#about {
+  background-color: rgb(224, 43, 43);
+  color:white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 4px solid black;
+  
+  max-width: 750px; 
+  /* box-sizing: border-box; */
+  justify-content: center;
+  /* margin-left: 300px; */
+  /* left: 50%;
+    right: 50%; */
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  border-radius: 14px;
+}
+
+#about h2 {
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Resume download button styles */
+#about a {
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+#about button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#about button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+h1,
+h2 {
+  text-align: center;
+  justify-content: center;
+  padding: 14px;
+}
+
+.pro-cardo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card {
+  height: 630;
+  background-color: #e1dfdf;
+  color: rgb(0, 0, 0);
+  margin: 30px;
+}
+
+.pro-cardo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+/* Your existing CSS styles */
+
+/* Contact form styles */
+#contact {
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#contact textarea {
+  height: 150px;
+}
+
+#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+  
+   
+
+  
+
+  
+
+  
+  
