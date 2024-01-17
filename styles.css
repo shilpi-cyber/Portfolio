@@ -1,6 +1,4 @@
 body {
-  /* width: 100%; */
-  min-width: 1050px;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -9,7 +7,6 @@ body {
 header {
   background-image: linear-gradient(rgb(189, 25, 25), black, rgb(189, 25, 25));
   color: #fff;
-  width: 100%;
   text-align: center;
   padding: 15px 0;
 }
@@ -39,9 +36,9 @@ nav ul li a:hover {
   padding: 6px;
 }
 
-/* main { 
+main {
   padding: 20px;
-} */
+}
 
 /* section {
     /* margin-bottom: 30px; 
@@ -78,56 +75,46 @@ nav ul li a:hover {
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 
-
 .anime {
   font-weight: 800;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: Hack, sans-serif;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #000, #632fb8, yellow,orange, green, #632fb8, #000);
+  background: linear-gradient(90deg, #000, #f10505, yellow, green, red, #000);
   letter-spacing: 5px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-repeat: no-repeat;
-  background-color: #950505;
-  padding: 152px;
+  padding: 150px;
   background-size: 80%;
-  animation: shine 2s linear infinite;
+  animation: shine 4s linear infinite;
   position: relative;
-  /* border: 13px solid rgb(128, 0, 0); */
-  border-radius: 30%;
-  
 }
 
 @keyframes shine {
   0% {
     background-position-x: -500%;
   }
-  
+
   100% {
     background-position-x: 500%;
   }
 }
 
 .container {
-
   color: #c00404;
   font-size: 2.26rem;
-  font-weight: bolder;
+  font-weight: bold;
   text-transform: uppercase;
   height: 30vh;
   display: flex;
-  /* border: 3px solid brown;
-  background-color: #47cd1e; */
-  /* border-collapse: collapse; */
   align-items: center;
   justify-content: center;
 }
 
 .animation {
-
   height: 50px;
   overflow: hidden;
   margin-left: 1rem;
@@ -141,12 +128,11 @@ nav ul li a:hover {
 }
 
 .animation div:first-child {
-  animation: text-animation 6s infinite;
+  animation: text-animation 8s infinite;
 }
 
 .first div {
-  
-  color: #ffffff;
+  color: #ccc;
   background-color: #20a7d8;
 }
 
@@ -212,13 +198,13 @@ nav ul li a:hover {
 
 #social-profiles {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   align-items: center;
 }
 
 #social-profiles h2 {
   font-size: 28px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 #social-profiles ul {
@@ -253,19 +239,21 @@ nav ul li a:hover {
   background-color: #333;
   color: #fff;
 }
-.abu{
+
+.abu {
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
 #about {
   background-color: rgb(224, 43, 43);
-  color:white;
+  color: white;
   margin-top: 50px;
   margin-bottom: 50px;
   border: 4px solid black;
-  
-  max-width: 750px; 
+
+  max-width: 750px;
   /* box-sizing: border-box; */
   justify-content: center;
   /* margin-left: 300px; */
@@ -278,13 +266,12 @@ nav ul li a:hover {
 }
 
 #about h2 {
-  text-align: left;
+  text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
 }
 
 #about p {
-  
   text-align: left;
   font-size: 16px;
   line-height: 1.6;
@@ -334,7 +321,7 @@ h2 {
 }
 
 .card {
-  height: 630;
+  height: 630px;
   background-color: #e1dfdf;
   color: rgb(0, 0, 0);
   margin: 30px;
@@ -352,7 +339,6 @@ h2 {
 
 /* Contact form styles */
 #contact {
-  padding: 20px;
   margin-top: 50px;
   text-align: center;
 }
@@ -413,16 +399,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-
-
-
-  
-   
-
-  
-
-  
-
-  
-  
